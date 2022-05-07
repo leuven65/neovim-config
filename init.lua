@@ -7,7 +7,7 @@ local opt = vim.opt   -- Set options (global/buffer/windows-scoped)
 opt.mouse = 'a'                       -- Enable mouse support
 opt.clipboard = 'unnamedplus'         -- Copy/paste to system clipboard
 opt.swapfile = false                  -- Don't use swapfile
-opt.completeopt = 'menuone,noinsert,noselect'  -- Autocomplete options
+-- opt.completeopt = 'menuone,noinsert,noselect'  -- Autocomplete options
 
 opt.number = true           -- Show line number
 opt.showmatch = true        -- Highlight matching parenthesis
